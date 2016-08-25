@@ -100,8 +100,8 @@ function log(message,result){
 /**
  * enum
  */
-//var Enum = require('enum');
-//
+var Enum = require('enum');
+
 //var EnumTest  = new Enum({
 //    'killEnumy': 0,
 //    'unLockHero': 1,
@@ -118,8 +118,31 @@ function log(message,result){
 //    }
 //    return returnOptionString;
 //};
-//
-//log("castEnum",castEnum(EnumTest));
+//var resultString = castEnum(EnumTest);
+//var arrayResult = resultString.split(',');
+//log("resultString",castEnum(EnumTest));
+//log("result 0",arrayResult[0]);
+//log("result 1",arrayResult[1]);
+//log("result 2",arrayResult[2]);
+//if(resultString.indexOf("killEnumy")>-1){
+//    log("has value",resultString.indexOf("unLockHero"));
+//    log("enumTest 0",EnumTest.getValue(2));
+//}
+//var itemIndex =  _.find(arrayResult,function(value,key){
+//        if(value.startsWith("unLock")){
+//            return key;
+//        }
+//    })
+//log("indexIndex "+itemIndex);
+
+
+//var regx = /killPerson/;
+//if(regx.test(resultString)){
+//    log("has value",true)
+//}else{
+//    log("no value",false);
+//}
+
 /**
  * apply
  */

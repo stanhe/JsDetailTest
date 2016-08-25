@@ -123,7 +123,7 @@ function log(message,result){
 /**
  * apply
  */
-var array = [12,18,22,48];
+//var array = [12,18,22,48];
 //var max=Math.max.apply(null,array);
 
 ///*定义一个人类*/
@@ -142,15 +142,12 @@ var array = [12,18,22,48];
 //log("age",student.age);
 //log("grade",student.grade);
 
-
-
-
-
-
-
-
-
-
+//function add(a,b){
+//    return(a+b);
+//}
+//function sub(a,b){
+//    return(a-b);}
+//log("result",add.call(sub,3,1));
 
 
 

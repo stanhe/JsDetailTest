@@ -123,22 +123,26 @@ function log(message,result){
 /**
  * apply
  */
-//var array = [12,18,22,48];
+var array = [12,18,22,48];
 //var max=Math.max.apply(null,array);
 
-/*定义一个人类*/
-function Person(name,age) {
-    this.name = name;
-    this.age = age;
-}
- /*定义一个学生类*/
-function Student(name,age,grade){
-             Person.apply(this,arguments);
-             this.grade=grade;
-         }
-     //创建一个学生类
-var student=new Student("qian",21,"一年级");
-log("max",student);
+///*定义一个人类*/
+//function Person(name,age) {
+//    this.name = name;
+//    this.age = age;
+//}
+// /*定义一个学生类*/
+//function Student(name,age,grade){
+//             Person.apply(this,arguments);
+//             this.grade=grade;
+//         }
+////创建一个学生类
+//var student=new Student("me",100,"120年级  ");
+//log("name",student.name);
+//log("age",student.age);
+//log("grade",student.grade);
+
+
 
 
 

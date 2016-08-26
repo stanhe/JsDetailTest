@@ -100,13 +100,12 @@ function log(message,result){
 /**
  * enum
  */
-var Enum = require('enum');
-
+//var Enum = require('enum');
 //var EnumTest  = new Enum({
 //    'killEnumy': 0,
 //    'unLockHero': 1,
 //    'killPerson': 2
-//})
+//},{separator: "|"})
 //function castEnum(enumObj) {
 //    var returnOptionString = "";
 //    for(var i=0;i<enumObj.enums.length;i++){
@@ -124,10 +123,17 @@ var Enum = require('enum');
 //log("result 0",arrayResult[0]);
 //log("result 1",arrayResult[1]);
 //log("result 2",arrayResult[2]);
-//if(resultString.indexOf("killEnumy")>-1){
-//    log("has value",resultString.indexOf("unLockHero"));
+//if(resultString.indexOf(EnumTest.get(2).key)>-1){
+//    log("has value",resultString.indexOf("unlockHero"));
 //    log("enumTest 0",EnumTest.getValue(2));
 //}
+
+
+
+//var myEnum = new Enum(['A', 'B', 'C'], 'MyEnum');
+//log("enum Name",myEnum.name);
+
+
 //var itemIndex =  _.find(arrayResult,function(value,key){
 //        if(value.startsWith("unLock")){
 //            return key;
